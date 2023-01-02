@@ -11,7 +11,7 @@ driver.maximize_window()
 driver.implicitly_wait(2)
 driver.get('https://demoqa.com/webtables')
 
-for i in range(0,3):
+for i in range(3):
     hapus = driver.find_element(By.XPATH,'/html/body/div[2]/div/div/div[2]/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]/div/div[7]/div/span[2]')
     hapus.click()
 
